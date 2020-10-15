@@ -26,7 +26,7 @@ import (
 // Constants
 const (
 	nameCipherBlockSize = aes.BlockSize
-	fileMagic           = "RCLONE\x00\x00"
+	fileMagic           = "BACKUP\x00\x00"
 	fileMagicSize       = len(fileMagic)
 	fileNonceSize       = 24
 	fileHeaderSize      = fileMagicSize + fileNonceSize
